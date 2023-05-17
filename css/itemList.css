@@ -1,0 +1,29 @@
+.item-description {
+    background:rgb(224, 247, 224);
+    border: 1px solid whitesmoke;
+    border-radius:.5rem;
+    padding:.2rem;
+    padding-left:.6rem;
+    margin: 1rem auto;
+    font-size:1rem;
+}
+.item-completed {
+    border-radius:3rem;
+    margin: 3rem .3rem 2rem 2rem;
+}
+
+.item-completed:checked + .item-description {
+    background:rgb(198, 224, 198);
+    border: 2px solid rgb(230, 227, 227);
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+#add{
+    margin-left:2.1rem;
+    border-radius:2rem;
+    border: none;
+    padding:.5rem 1rem;
+    cursor:pointer;
+    margin-top:1rem;
+}
